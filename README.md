@@ -9,7 +9,7 @@ The language in software is Chinese, the develop language is C#.
 # 语言
 软件内语言为简体中文，开发语言是C#
 
-# Develop logs
+# 更新日志 Develop logs
 -2023-1-20 创建项目（Create Project）<br>
 -2023-1-22 上传至Github仓库（Upload to Github repositories）<br>
 -2023-1-23 14:56新版本V1.1.2<br>
