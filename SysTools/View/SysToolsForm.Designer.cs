@@ -46,16 +46,16 @@ namespace SysTools
             this.buRegSys = new System.Windows.Forms.Button();
             this.buFileSys = new System.Windows.Forms.Button();
             this.buBrowser = new System.Windows.Forms.Button();
-            this.buWeb1 = new System.Windows.Forms.Button();
-            this.buWeb4 = new System.Windows.Forms.Button();
-            this.buWeb5 = new System.Windows.Forms.Button();
-            this.buWeb3 = new System.Windows.Forms.Button();
-            this.buWeb2 = new System.Windows.Forms.Button();
-            this.buWeb6 = new System.Windows.Forms.Button();
-            this.buWeb7 = new System.Windows.Forms.Button();
-            this.buWeb9 = new System.Windows.Forms.Button();
-            this.buWeb8 = new System.Windows.Forms.Button();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.buWeb7 = new System.Windows.Forms.Button();
+            this.buWeb8 = new System.Windows.Forms.Button();
+            this.buWeb4 = new System.Windows.Forms.Button();
+            this.buWeb9 = new System.Windows.Forms.Button();
+            this.buWeb1 = new System.Windows.Forms.Button();
+            this.buWeb6 = new System.Windows.Forms.Button();
+            this.buWeb2 = new System.Windows.Forms.Button();
+            this.buWeb3 = new System.Windows.Forms.Button();
+            this.buWeb5 = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -167,9 +167,13 @@ namespace SysTools
             this.cbSearchEngine.FormattingEnabled = true;
             this.cbSearchEngine.Items.AddRange(new object[] {
             "Bing-必应",
+            "Zhihu-知乎",
             "Baidu-百度",
             "Bilibili-哔哩哔哩",
-            "Github"});
+            "Github",
+            "Google-谷歌",
+            "Twitter-推特",
+            "Youtube-油管"});
             this.cbSearchEngine.Location = new System.Drawing.Point(500, 67);
             this.cbSearchEngine.Name = "cbSearchEngine";
             this.cbSearchEngine.RightToLeft = System.Windows.Forms.RightToLeft.No;
@@ -286,114 +290,6 @@ namespace SysTools
             this.buBrowser.UseVisualStyleBackColor = true;
             this.buBrowser.Click += new System.EventHandler(this.buBrowser_Click);
             // 
-            // buWeb1
-            // 
-            this.buWeb1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.buWeb1.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.buWeb1.Location = new System.Drawing.Point(13, 47);
-            this.buWeb1.Name = "buWeb1";
-            this.buWeb1.Size = new System.Drawing.Size(132, 34);
-            this.buWeb1.TabIndex = 13;
-            this.buWeb1.Text = "Web1";
-            this.buWeb1.UseVisualStyleBackColor = true;
-            this.buWeb1.Click += new System.EventHandler(this.buWeb1_Click);
-            // 
-            // buWeb4
-            // 
-            this.buWeb4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.buWeb4.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.buWeb4.Location = new System.Drawing.Point(13, 117);
-            this.buWeb4.Name = "buWeb4";
-            this.buWeb4.Size = new System.Drawing.Size(132, 34);
-            this.buWeb4.TabIndex = 14;
-            this.buWeb4.Text = "Web4";
-            this.buWeb4.UseVisualStyleBackColor = true;
-            this.buWeb4.Click += new System.EventHandler(this.buWeb4_Click);
-            // 
-            // buWeb5
-            // 
-            this.buWeb5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.buWeb5.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.buWeb5.Location = new System.Drawing.Point(151, 117);
-            this.buWeb5.Name = "buWeb5";
-            this.buWeb5.Size = new System.Drawing.Size(132, 34);
-            this.buWeb5.TabIndex = 15;
-            this.buWeb5.Text = "Web5";
-            this.buWeb5.UseVisualStyleBackColor = true;
-            this.buWeb5.Click += new System.EventHandler(this.buWeb5_Click);
-            // 
-            // buWeb3
-            // 
-            this.buWeb3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.buWeb3.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.buWeb3.Location = new System.Drawing.Point(289, 47);
-            this.buWeb3.Name = "buWeb3";
-            this.buWeb3.Size = new System.Drawing.Size(132, 34);
-            this.buWeb3.TabIndex = 16;
-            this.buWeb3.Text = "Web3";
-            this.buWeb3.UseVisualStyleBackColor = true;
-            this.buWeb3.Click += new System.EventHandler(this.buWeb3_Click);
-            // 
-            // buWeb2
-            // 
-            this.buWeb2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.buWeb2.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.buWeb2.Location = new System.Drawing.Point(151, 47);
-            this.buWeb2.Name = "buWeb2";
-            this.buWeb2.Size = new System.Drawing.Size(132, 34);
-            this.buWeb2.TabIndex = 17;
-            this.buWeb2.Text = "Web2";
-            this.buWeb2.UseVisualStyleBackColor = true;
-            this.buWeb2.Click += new System.EventHandler(this.buWeb2_Click);
-            // 
-            // buWeb6
-            // 
-            this.buWeb6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.buWeb6.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.buWeb6.Location = new System.Drawing.Point(289, 117);
-            this.buWeb6.Name = "buWeb6";
-            this.buWeb6.Size = new System.Drawing.Size(132, 34);
-            this.buWeb6.TabIndex = 18;
-            this.buWeb6.Text = "Web6";
-            this.buWeb6.UseVisualStyleBackColor = true;
-            this.buWeb6.Click += new System.EventHandler(this.buWeb6_Click);
-            // 
-            // buWeb7
-            // 
-            this.buWeb7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.buWeb7.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.buWeb7.Location = new System.Drawing.Point(13, 186);
-            this.buWeb7.Name = "buWeb7";
-            this.buWeb7.Size = new System.Drawing.Size(132, 34);
-            this.buWeb7.TabIndex = 19;
-            this.buWeb7.Text = "Web7";
-            this.buWeb7.UseVisualStyleBackColor = true;
-            this.buWeb7.Click += new System.EventHandler(this.buWeb7_Click);
-            // 
-            // buWeb9
-            // 
-            this.buWeb9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.buWeb9.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.buWeb9.Location = new System.Drawing.Point(289, 186);
-            this.buWeb9.Name = "buWeb9";
-            this.buWeb9.Size = new System.Drawing.Size(132, 34);
-            this.buWeb9.TabIndex = 20;
-            this.buWeb9.Text = "Web9";
-            this.buWeb9.UseVisualStyleBackColor = true;
-            this.buWeb9.Click += new System.EventHandler(this.buWeb9_Click);
-            // 
-            // buWeb8
-            // 
-            this.buWeb8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.buWeb8.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.buWeb8.Location = new System.Drawing.Point(151, 186);
-            this.buWeb8.Name = "buWeb8";
-            this.buWeb8.Size = new System.Drawing.Size(132, 34);
-            this.buWeb8.TabIndex = 21;
-            this.buWeb8.Text = "Web8";
-            this.buWeb8.UseVisualStyleBackColor = true;
-            this.buWeb8.Click += new System.EventHandler(this.buWeb8_Click);
-            // 
             // groupBox3
             // 
             this.groupBox3.Controls.Add(this.buWeb7);
@@ -412,6 +308,114 @@ namespace SysTools
             this.groupBox3.TabIndex = 22;
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "自定义网址栏(软件目录下 Websites.xml)";
+            // 
+            // buWeb7
+            // 
+            this.buWeb7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buWeb7.ForeColor = System.Drawing.SystemColors.Highlight;
+            this.buWeb7.Location = new System.Drawing.Point(13, 186);
+            this.buWeb7.Name = "buWeb7";
+            this.buWeb7.Size = new System.Drawing.Size(132, 34);
+            this.buWeb7.TabIndex = 19;
+            this.buWeb7.Text = "Web7";
+            this.buWeb7.UseVisualStyleBackColor = true;
+            this.buWeb7.Click += new System.EventHandler(this.buWeb7_Click);
+            // 
+            // buWeb8
+            // 
+            this.buWeb8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buWeb8.ForeColor = System.Drawing.SystemColors.Highlight;
+            this.buWeb8.Location = new System.Drawing.Point(151, 186);
+            this.buWeb8.Name = "buWeb8";
+            this.buWeb8.Size = new System.Drawing.Size(132, 34);
+            this.buWeb8.TabIndex = 21;
+            this.buWeb8.Text = "Web8";
+            this.buWeb8.UseVisualStyleBackColor = true;
+            this.buWeb8.Click += new System.EventHandler(this.buWeb8_Click);
+            // 
+            // buWeb4
+            // 
+            this.buWeb4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buWeb4.ForeColor = System.Drawing.SystemColors.Highlight;
+            this.buWeb4.Location = new System.Drawing.Point(13, 117);
+            this.buWeb4.Name = "buWeb4";
+            this.buWeb4.Size = new System.Drawing.Size(132, 34);
+            this.buWeb4.TabIndex = 14;
+            this.buWeb4.Text = "Web4";
+            this.buWeb4.UseVisualStyleBackColor = true;
+            this.buWeb4.Click += new System.EventHandler(this.buWeb4_Click);
+            // 
+            // buWeb9
+            // 
+            this.buWeb9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buWeb9.ForeColor = System.Drawing.SystemColors.Highlight;
+            this.buWeb9.Location = new System.Drawing.Point(289, 186);
+            this.buWeb9.Name = "buWeb9";
+            this.buWeb9.Size = new System.Drawing.Size(132, 34);
+            this.buWeb9.TabIndex = 20;
+            this.buWeb9.Text = "Web9";
+            this.buWeb9.UseVisualStyleBackColor = true;
+            this.buWeb9.Click += new System.EventHandler(this.buWeb9_Click);
+            // 
+            // buWeb1
+            // 
+            this.buWeb1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buWeb1.ForeColor = System.Drawing.SystemColors.Highlight;
+            this.buWeb1.Location = new System.Drawing.Point(13, 47);
+            this.buWeb1.Name = "buWeb1";
+            this.buWeb1.Size = new System.Drawing.Size(132, 34);
+            this.buWeb1.TabIndex = 13;
+            this.buWeb1.Text = "Web1";
+            this.buWeb1.UseVisualStyleBackColor = true;
+            this.buWeb1.Click += new System.EventHandler(this.buWeb1_Click);
+            // 
+            // buWeb6
+            // 
+            this.buWeb6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buWeb6.ForeColor = System.Drawing.SystemColors.Highlight;
+            this.buWeb6.Location = new System.Drawing.Point(289, 117);
+            this.buWeb6.Name = "buWeb6";
+            this.buWeb6.Size = new System.Drawing.Size(132, 34);
+            this.buWeb6.TabIndex = 18;
+            this.buWeb6.Text = "Web6";
+            this.buWeb6.UseVisualStyleBackColor = true;
+            this.buWeb6.Click += new System.EventHandler(this.buWeb6_Click);
+            // 
+            // buWeb2
+            // 
+            this.buWeb2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buWeb2.ForeColor = System.Drawing.SystemColors.Highlight;
+            this.buWeb2.Location = new System.Drawing.Point(151, 47);
+            this.buWeb2.Name = "buWeb2";
+            this.buWeb2.Size = new System.Drawing.Size(132, 34);
+            this.buWeb2.TabIndex = 17;
+            this.buWeb2.Text = "Web2";
+            this.buWeb2.UseVisualStyleBackColor = true;
+            this.buWeb2.Click += new System.EventHandler(this.buWeb2_Click);
+            // 
+            // buWeb3
+            // 
+            this.buWeb3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buWeb3.ForeColor = System.Drawing.SystemColors.Highlight;
+            this.buWeb3.Location = new System.Drawing.Point(289, 47);
+            this.buWeb3.Name = "buWeb3";
+            this.buWeb3.Size = new System.Drawing.Size(132, 34);
+            this.buWeb3.TabIndex = 16;
+            this.buWeb3.Text = "Web3";
+            this.buWeb3.UseVisualStyleBackColor = true;
+            this.buWeb3.Click += new System.EventHandler(this.buWeb3_Click);
+            // 
+            // buWeb5
+            // 
+            this.buWeb5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buWeb5.ForeColor = System.Drawing.SystemColors.Highlight;
+            this.buWeb5.Location = new System.Drawing.Point(151, 117);
+            this.buWeb5.Name = "buWeb5";
+            this.buWeb5.Size = new System.Drawing.Size(132, 34);
+            this.buWeb5.TabIndex = 15;
+            this.buWeb5.Text = "Web5";
+            this.buWeb5.UseVisualStyleBackColor = true;
+            this.buWeb5.Click += new System.EventHandler(this.buWeb5_Click);
             // 
             // SysToolsForm
             // 

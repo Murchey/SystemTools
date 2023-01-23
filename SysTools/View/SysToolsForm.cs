@@ -250,6 +250,18 @@ namespace SysTools
                     case "Github":
                         Process.Start("iexplore", "https://github.com/search?q=" + txtSearch.Text);
                         break;
+                    case "Zhihu-知乎":
+                        Process.Start("iexplore", "https://www.zhihu.com/search?type=content&q=" + txtSearch.Text);
+                        break;
+                    case "Google-谷歌":
+                        Process.Start("iexplore", "https://www.google.com/search?q=" + txtSearch.Text);
+                        break;
+                    case "Twitter-推特":
+                        Process.Start("iexplore", "https://twitter.com/search?q=" + txtSearch.Text);
+                        break;
+                    case "Youtube-油管":
+                        Process.Start("iexplore", "https://www.youtube.com/results?search_query="+txtSearch.Text);
+                        break;
                     default:
                         break;
                 }
