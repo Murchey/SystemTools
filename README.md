@@ -1,3 +1,5 @@
+# 注意：SysTools.exe是成品，可下载使用
+
 # SystemTools
 This is a project to develop my own system tools to serve my computer usage.
 # Language
