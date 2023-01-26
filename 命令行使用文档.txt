@@ -1,0 +1,5 @@
+1.exit
+>彻底退出软件无提示
+
+2.testUpdate
+>跳转到github下载TestUpdate.xml检测更新，在打开页面之后选择保存到桌面，使用弹出的更新窗口进行设置
