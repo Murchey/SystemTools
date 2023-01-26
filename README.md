@@ -14,3 +14,6 @@ The language in software is Chinese, the develop language is C#.
 -2023-1-22 上传至Github仓库（Upload to Github repositories）<br>
 -2023-1-23 14:56新版本V1.1.2<br>
 >更新内容:搜索部分添加更多搜索网站（新增Google Youtube Twitter）<br>
+-2023-1-26 20:19:19新版本V1.1.3<br>
+>更新内容：增加更新功能（仍是内测阶段）
+>并且公布SysTools主页面命令使用文档
