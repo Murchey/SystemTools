@@ -32,6 +32,7 @@ namespace SysTools
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainView));
             this.panel1 = new System.Windows.Forms.Panel();
+            this.buMoreTools = new System.Windows.Forms.Button();
             this.txtOrders = new System.Windows.Forms.TextBox();
             this.buTools = new System.Windows.Forms.Button();
             this.buSysSpeed = new System.Windows.Forms.Button();
@@ -52,6 +53,7 @@ namespace SysTools
             // 
             // panel1
             // 
+            this.panel1.Controls.Add(this.buMoreTools);
             this.panel1.Controls.Add(this.txtOrders);
             this.panel1.Controls.Add(this.buTools);
             this.panel1.Controls.Add(this.buSysSpeed);
@@ -62,6 +64,21 @@ namespace SysTools
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(855, 520);
             this.panel1.TabIndex = 0;
+            // 
+            // buMoreTools
+            // 
+            this.buMoreTools.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.buMoreTools.Font = new System.Drawing.Font("等线", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.buMoreTools.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.buMoreTools.Image = global::SysTools.Properties.Resources.更多工具;
+            this.buMoreTools.Location = new System.Drawing.Point(467, 331);
+            this.buMoreTools.Name = "buMoreTools";
+            this.buMoreTools.Size = new System.Drawing.Size(139, 177);
+            this.buMoreTools.TabIndex = 6;
+            this.buMoreTools.Text = "更多工具";
+            this.buMoreTools.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.buMoreTools.UseVisualStyleBackColor = true;
+            this.buMoreTools.Click += new System.EventHandler(this.buMoreTools_Click);
             // 
             // txtOrders
             // 
@@ -89,7 +106,7 @@ namespace SysTools
             this.buTools.Name = "buTools";
             this.buTools.Size = new System.Drawing.Size(139, 177);
             this.buTools.TabIndex = 3;
-            this.buTools.Text = "实用工具";
+            this.buTools.Text = "系统,网络";
             this.buTools.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.buTools.UseVisualStyleBackColor = true;
             this.buTools.Click += new System.EventHandler(this.Button1_Click);
@@ -215,7 +232,7 @@ namespace SysTools
             // 
             this.notifyIcon1.ContextMenuStrip = this.contextMenuStrip1;
             this.notifyIcon1.Icon = ((System.Drawing.Icon)(resources.GetObject("notifyIcon1.Icon")));
-            this.notifyIcon1.Text = "SysTools by Murchey";
+            this.notifyIcon1.Text = "SysTools \r\nby Murchey\r\n版本: V1.2.2.0";
             this.notifyIcon1.Visible = true;
             this.notifyIcon1.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.notifyIcon1_MouseClick);
             // 
@@ -259,6 +276,7 @@ namespace SysTools
         private System.Windows.Forms.ToolStripMenuItem 退出ToolStripMenuItem;
         private System.Windows.Forms.NotifyIcon notifyIcon1;
         private System.Windows.Forms.TextBox txtOrders;
+        private System.Windows.Forms.Button buMoreTools;
     }
 }
 

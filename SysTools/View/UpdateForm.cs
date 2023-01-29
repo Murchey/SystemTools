@@ -40,7 +40,7 @@ namespace SysTools
                 doc.Load(txtFilePath.Text);
                 XmlNode st=doc.SelectSingleNode("SystemTools");
                 XmlNode version = st.SelectSingleNode("version");
-                if (!(version.InnerText=="V1.1.3"))
+                if (!(version.InnerText=="V1.2.2.0"))
                 {
                     Process.Start("iexplore", "https://github.com/Murchey/SystemTools");
                     this.Hide();

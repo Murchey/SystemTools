@@ -11,6 +11,21 @@
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>1</ApplicationRevision>
+    <ApplicationVersion>1.2.1.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -21,6 +36,8 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <DocumentationFile>
+    </DocumentationFile>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -52,7 +69,24 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Clean.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Tools\GongShiJiSuanQi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tools\GongShiJiSuanQi.Designer.cs">
+      <DependentUpon>GongShiJiSuanQi.cs</DependentUpon>
+    </Compile>
     <Compile Include="Orders.cs" />
+    <Compile Include="View\SysMoreToolsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\SysMoreToolsForm.Designer.cs">
+      <DependentUpon>SysMoreToolsForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="View\UpdateForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -92,21 +126,28 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Win32.cs" />
+    <Compile Include="Tools\WenJianBiDui.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tools\WenJianBiDui.Designer.cs">
+      <DependentUpon>WenJianBiDui.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Tools\GongShiJiSuanQi.resx">
+      <DependentUpon>GongShiJiSuanQi.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="View\MainView.resx">
       <DependentUpon>MainView.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <Compile Include="Properties\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Resources.resx</DependentUpon>
-      <DesignTime>True</DesignTime>
-    </Compile>
     <EmbeddedResource Include="View\SysCleanForm.resx">
       <DependentUpon>SysCleanForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\SysMoreToolsForm.resx">
+      <DependentUpon>SysMoreToolsForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="View\SysSpeedForm.resx">
       <DependentUpon>SysSpeedForm.cs</DependentUpon>
@@ -146,15 +187,25 @@
     <None Include="Resources\softwareIcon.ico" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\SysToolsData.accdb">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\实用工具.png" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Imageres_dll_022.ico" />
+    <None Include="Resources\圆环.gif" />
+    <None Include="Resources\平行四边形.gif" />
+    <None Include="Resources\长方形.gif" />
+    <None Include="Resources\圆.gif" />
+    <None Include="Resources\椭圆形.gif" />
+    <None Include="Resources\梯形.gif" />
+    <None Include="Resources\三角形.gif" />
+    <None Include="Resources\更多工具.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

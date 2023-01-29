@@ -216,6 +216,7 @@ namespace SysTools
             this.txtSearch.TabIndex = 7;
             this.txtSearch.Text = "搜索框（在此处输入内容进行搜索）";
             this.txtSearch.Click += new System.EventHandler(this.textBox1_Click);
+            this.txtSearch.TextChanged += new System.EventHandler(this.txtSearch_TextChanged);
             this.txtSearch.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtSearch_KeyDown);
             // 
             // buTskmgr

@@ -329,5 +329,10 @@ namespace SysTools
         {
             Process.Start("Iexplore", web9url);
         }
+
+        private void txtSearch_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

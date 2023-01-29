@@ -121,5 +121,11 @@ namespace SysTools
                 Application.Exit();
             }
         }
+
+        private void buMoreTools_Click(object sender, EventArgs e)
+        {
+            SysMoreToolsForm smtf = new SysMoreToolsForm();
+            smtf.Show();
+        }
     }
 }

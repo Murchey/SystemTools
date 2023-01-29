@@ -83,6 +83,16 @@ namespace SysTools.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        internal static System.Drawing.Bitmap 三角形 {
+            get {
+                object obj = ResourceManager.GetObject("三角形", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         internal static System.Drawing.Bitmap 优化加速 {
             get {
                 object obj = ResourceManager.GetObject("优化加速", resourceCulture);
@@ -93,9 +103,69 @@ namespace SysTools.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        internal static System.Drawing.Bitmap 圆 {
+            get {
+                object obj = ResourceManager.GetObject("圆", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        internal static System.Drawing.Bitmap 圆环 {
+            get {
+                object obj = ResourceManager.GetObject("圆环", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         internal static System.Drawing.Bitmap 实用工具 {
             get {
                 object obj = ResourceManager.GetObject("实用工具", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        internal static System.Drawing.Bitmap 平行四边形 {
+            get {
+                object obj = ResourceManager.GetObject("平行四边形", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        internal static System.Drawing.Bitmap 更多工具 {
+            get {
+                object obj = ResourceManager.GetObject("更多工具", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        internal static System.Drawing.Bitmap 梯形 {
+            get {
+                object obj = ResourceManager.GetObject("梯形", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        internal static System.Drawing.Bitmap 椭圆形 {
+            get {
+                object obj = ResourceManager.GetObject("椭圆形", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -116,6 +186,16 @@ namespace SysTools.Properties {
         internal static System.Drawing.Bitmap 系统检测 {
             get {
                 object obj = ResourceManager.GetObject("系统检测", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        internal static System.Drawing.Bitmap 长方形 {
+            get {
+                object obj = ResourceManager.GetObject("长方形", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

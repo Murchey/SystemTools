@@ -1,4 +1,3 @@
-H:\VS2019projects\SysTools\bin\Debug\Resources\SysToolsData.accdb
 H:\VS2019projects\SysTools\bin\Debug\SysTools.exe.config
 H:\VS2019projects\SysTools\bin\Debug\SysTools.exe
 H:\VS2019projects\SysTools\bin\Debug\SysTools.pdb
@@ -14,3 +13,5 @@ H:\VS2019projects\SysTools\obj\Debug\SysTools.SysSpeed.resources
 H:\VS2019projects\SysTools\obj\Debug\SysTools.SysClearForm.resources
 H:\VS2019projects\SysTools\obj\Debug\SysTools.SysToolsForm.resources
 H:\VS2019projects\SysTools\obj\Debug\SysTools.UpdateForm.resources
+H:\VS2019projects\SysTools\obj\Debug\SysTools.SysMoreToolsForm.resources
+H:\VS2019projects\SysTools\obj\Debug\SysTools.GongShiJiSuanQi.resources
