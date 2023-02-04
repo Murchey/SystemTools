@@ -21,4 +21,6 @@ The language in software is Chinese, the develop language is C#.
 》并且公布SysTools主页面命令使用文档<br>
 -2023-1-29 10:21:19新版本V1.2.2.0<br>
 》更新内容：新增 更多工具 并且编写完成部分功能 面积计算器<br>
-》p.s.剩余功能会陆续补全
+》p.s.剩余功能会陆续补全<br>
+-2023-2-4 23:18:52新版本V1.2.3.0<br>
+》更新呢内容：新增删除当前用户的文件使用痕迹<br>
