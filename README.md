@@ -30,3 +30,5 @@ The language in software is Chinese, the develop language is C#.
 》更新内容：使软件适配屏幕分辨率<br>
 -2023-2-19 16:35:28新版本V1.4.0.0<br>
 》更新内容：增加更多工具<br>
+-2023-3-4 11:03:25新版本V1.5.0.0<br>
+》更新内容：增加日志记录功能<br>
